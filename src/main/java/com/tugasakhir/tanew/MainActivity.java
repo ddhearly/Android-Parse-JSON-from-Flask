@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void jsonParse() {
 
-        String url = "http://206.189.81.166/info/suhu";
+        String url = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {
